@@ -15,7 +15,7 @@ Para executar o projeto é necessário criar um arquivo chamado ```.env```, cont
 Abrir o **index.js** no terminal e executar o comando ```npm start```
 
 
-###### Para leitura do relatório publicado no Médium [clique aqui](https://medium.com/p/65efa5404f25).
+###### Para leitura do relatório publicado no Médium [clique aqui](https://medium.com/@jfscrd/controle-de-fluxo-de-notificação-de-covid-19-usando-javascript-e-mongodb-65efa5404f25).
 
 
 ######**Notas** 
