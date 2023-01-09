@@ -3,6 +3,9 @@ const express = require('express') //importa o express
 const mongoose = require('mongoose')
 const app = express() //executa o express como uma funçao
 
+app.use(express.json({limit: '50mb'}));
+app.use(express.urlencoded({limit: '50mb'}));
+
 //lendo JSON -> middlewares
 app.use( //cria o middleware para envio
     express.urlencoded({
@@ -21,7 +24,7 @@ app.use('/notificacao', notificacaoRoutes)
 app.get('/', (req, res)=>{ //express pode le dados recebidos na requisição e possibilita a resposta
     //mostrar requisição
 
-    res.json({message: 'Oi. E stou funcionando!'})
+    res.json({message: 'API Conectada ao MongoBD!'})
 })
 
 //configurações de acesso
