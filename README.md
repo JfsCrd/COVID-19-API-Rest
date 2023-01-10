@@ -15,12 +15,12 @@ Para executar o projeto é necessário criar um arquivo chamado ```.env```, cont
 Abrir o **index.js** no terminal e executar o comando ```npm start```
 
 
-###### Para leitura do relatório publicado no Médium [clique aqui](https://medium.com/@jfscrd/controle-de-fluxo-de-notificação-de-covid-19-usando-javascript-e-mongodb-65efa5404f25).
+###### **Para leitura do relatório publicado no Médium** [clique aqui](https://medium.com/@jfscrd/controle-de-fluxo-de-notificação-de-covid-19-usando-javascript-e-mongodb-65efa5404f25).
 
 
 ######**Notas** 
 
-O arquivo `Dados_Gerais_JSON.json` conta com 1346 registros em JSON para inserção no banco de dados. Os dados podem ser editados facilmente utilizando o arquivo `Dados_Gerais_XLSX.xlsx`.
+O arquivo `Dados/Dados_Gerais_JSON.json` conta com 1346 registros em JSON para inserção no banco de dados. Os dados podem ser editados facilmente utilizando o arquivo `Dados/Dados_Gerais_XLSX.xlsx`.
 
 ***Os dados inseridos no banco de dados são parcialmente fictícios, portantando não representam a situação pandêmica real na comunidade univesitária descrita.** 
 
